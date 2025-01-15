@@ -30,7 +30,7 @@ export const PLATFORMS: [string, AspectRatio][] = [
   ['TurboGrafx-16', {x: 8, y: 7}],
   ['PICO-8', {x: 1, y: 1}],
   ['Sega Genesis', {x: 4, y: 3}],
-  ['Sega Dreamcast', {x: 4, y: 3}],
+  ['Sega Dreamcast', {x: 4, y: 3}],rrr
   ['Sega Game Gear', {x: 10, y: 9}],
   ['Sega Master System', {x: 4, y: 3}],
   ['Sega Saturn', {x: 4, y: 3}],
@@ -120,6 +120,8 @@ export const DEVICES: [string, Display][] = [
   ["Retroid Pocket 4 Pro", {size: 4.7, ar: {x: 16, y: 9}}],
   ["Retroid Pocket Mini", {size: 3.7, ar: {x: 4, y: 3}}],
   ["Retroid Pocket 5", {size: 5.5, ar: {x: 16, y: 9}}],
+  ["Steam Deck (LCD)", {size: 7.0, ar: {x: 16, y: 10}}],
+  ["Steam Deck (OLED)", {size: 7.4, ar: {x: 16, y: 10}}],
   ["Trimui Brick", {size: 3.2, ar: {x: 4, y: 3}}],
   ["Trimui Smart", {size: 2.4, ar: {x: 4, y: 3}}],
   ["Trimui Smart Pro", {size: 4.95, ar: {x: 16, y: 9}}],
